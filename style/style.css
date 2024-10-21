@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 1px solid black;
+    background-color: rgb(247, 255, 255);
+}
+.header1, ul {
+  display: flex;
+  margin: 5px auto;
+  padding: 3px auto;
+}
+ul, li {
+  padding: 5px;
+  list-style-type: none;
+}
+.header2, section{
+    display: flex;
+    margin: 3px 10px;
+    padding: 3px ;
+}
+section {
+    display: block;
+}
+ h1{
+  align-items: center;
+  padding-left: 13rem;
+  margin: 10px;
+}
+.header3{
+    margin: 2px auto;
+    padding: 1.6rem auto;
+    justify-items: center;
+    width: 75%;
+    border-bottom: 1px solid black;
+}
+#dropdown{
+    border: none;
+    width: 2cm;
+    padding: 10px;
+}
