@@ -4,40 +4,139 @@
 }
 
 header {
-    border-bottom: 1px solid black;
-    background-color: rgb(247, 255, 255);
+  border-bottom: 1px solid black;
+  background-color: rgb(247, 255, 255);
 }
+
 .header1, ul {
   display: flex;
   margin: 5px auto;
   padding: 3px auto;
 }
+
 ul, li {
   padding: 5px;
   list-style-type: none;
 }
+
 .header2, section{
-    display: flex;
-    margin: 3px 10px;
-    padding: 3px ;
+  display: flex;
+  margin: 3px 10px;
+  padding: 3px ;
 }
+
 section {
-    display: block;
+  display: block;
 }
- h1{
+
+h1 {
   align-items: center;
   padding-left: 13rem;
   margin: 10px;
 }
-.header3{
-    margin: 2px auto;
-    padding: 1.6rem auto;
-    justify-items: center;
-    width: 75%;
-    border-bottom: 1px solid black;
+
+.header3 {
+  margin: 2px auto;
+  padding: 1.6rem auto;
+  justify-items: center;
+  width: 75%;
+  border-bottom: 1px solid black;
 }
-#dropdown{
-    border: none;
-    width: 2cm;
-    padding: 10px;
+
+#dropdown {
+  border: none;
+  width: 2cm;
+  padding: 10px;
+}
+
+.date, h4 {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bolder;
+  color: rgb(254, 252, 252);
+  padding: 5px;
+}
+
+.red{
+  background-color: rgb(234, 60, 60);
+}
+
+.blue {
+  background-color: rgb(26, 124, 236);
+}
+
+.sectn-lft1 {
+  align-items: center;
+  width: 67%;
+  margin: 3% auto;
+  padding-right: 25%;
+}
+
+.leftin{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  border-bottom: 1px solid rgb(1, 1, 1);
+}
+
+.lft-side {
+  padding: 1rem auto;
+  margin: 1rem auto;
+  width: 40%;
+  font-size: 16px;
+}
+
+.midle-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 60%;
+}
+
+.image{
+  height: 300px;
+  width: 80%;
+  padding-left: 2%;
+}
+
+figcaption{
+  color: gray;
+  font-size: smaller;
+  text-align: right;
+}
+
+.Section-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.sec-2 {
+
+}
+
+.bugger{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.sec-1 {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.Section-3{
+  display: flex;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.imgsec{
+  height: 70px;
+  width: 70px;
 }
