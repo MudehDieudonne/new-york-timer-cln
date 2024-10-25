@@ -50,7 +50,7 @@ h1 {
   padding: 1rem;
 }
 
-.Section-1 {
+.section-1 {
   margin: 10px;
   padding: 20px;
   background-color: rgb(255, 255, 255);
@@ -121,7 +121,7 @@ figcaption {
   border: 3px solid rgb(6, 121, 252);
 }
 
-.Amric {
+.amric {
   height: 100px;
   width: 100px;
 }
@@ -133,7 +133,7 @@ figcaption {
   padding: 0.5rem auto;
   margin: 0.5rem auto;
 }
-.Section-2 {
+.section-2 {
   flex-grow: 2;
   margin: 10px;
   padding: 20px;
@@ -164,7 +164,7 @@ figcaption {
   height: 110px;
   width: 100px;
 }
-.Advert{
+.advert{
   background-color: aliceblue;
   border-top: 1px solid grey;
   border-bottom:1px solid grey ;
