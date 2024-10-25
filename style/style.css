@@ -107,7 +107,7 @@ figcaption {
   height: 400px;
 }
 
-.Horiz {
+.horiz {
   display: flex;
   justify-content: space-between;
   padding: 0.2rem;
