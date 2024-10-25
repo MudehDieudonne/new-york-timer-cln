@@ -165,12 +165,50 @@ figcaption {
   width: 100px;
 }
 .advert{
-  background-color: aliceblue;
+  background-color: rgb(226, 232, 237);
   border-top: 1px solid grey;
   border-bottom:1px solid grey ;
   color: grey;
   height: 250px;
-  width: 97%;
+  width: 99%;
   display: flex;
   justify-content: center;
+}
+
+.cardi {
+  height: 200px;
+  width: 200px;
+}
+.rowsp {
+  width: 250px;
+  height: 190px;
+  border-radius: 4%;
+}
+
+.card {
+  padding:0.5rem;
+  margin: 0.5rem;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
