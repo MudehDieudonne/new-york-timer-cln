@@ -19,14 +19,10 @@ ul, li {
   list-style-type: none;
 }
 
-.header2, section{
+.header2 {
   display: flex;
   margin: 3px 10px;
   padding: 3px ;
-}
-
-section {
-  display: block;
 }
 
 h1 {
@@ -43,100 +39,120 @@ h1 {
   border-bottom: 1px solid black;
 }
 
-#dropdown {
+.dropdown {
   border: none;
   width: 2cm;
   padding: 10px;
 }
-
-.date, h4 {
-  display: inline-block;
-  font-size: 15px;
-  font-weight: bolder;
-  color: rgb(254, 252, 252);
-  padding: 5px;
-}
-
-.red{
-  background-color: rgb(234, 60, 60);
-}
-
-.blue {
-  background-color: rgb(26, 124, 236);
-}
-
-.sectn-lft1 {
-  align-items: center;
-  width: 67%;
-  margin: 3% auto;
-  padding-right: 25%;
-}
-
-.leftin{
+.main {
   display: flex;
   flex-direction: row;
-  padding: 5px;
-  border-bottom: 1px solid rgb(1, 1, 1);
+  padding: 1rem;
 }
 
-.lft-side {
-  padding: 1rem auto;
-  margin: 1rem auto;
-  width: 40%;
-  font-size: 16px;
+.Section-1 {
+  margin: 10px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
 }
 
-.midle-side{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 60%;
-}
-
-.image{
-  height: 300px;
-  width: 80%;
-  padding-left: 2%;
-}
-
-figcaption{
-  color: gray;
-  font-size: smaller;
-  text-align: right;
-}
-
-.Section-2{
+.left {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  flex-wrap: wrap;
-  gap: 1rem;
+  margin-bottom: 5%;
+  margin-top: 3%;
 }
 
-.sec-2 {
-
-}
-
-.bugger{
+.lft {
   display: flex;
-  flex-wrap:wrap;
+  flex-direction: column;
   justify-content: space-between;
+  width: 30%;
+  padding: 0.2rem;
 }
 
-.sec-1 {
+p, small, figcaption {
+  color: gray;
+}
+
+small {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 50%;
+}
+
+h4 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+section {
+  border-bottom: 1px solid rgb(170, 168, 168);
+}
+
+figcaption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10%;
+}
+
+.midd {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.midle, img {
+  width: 450px;
+  height: 400px;
+}
+
+.Horiz {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem;
+  border-top: 1px solid rgb(181, 180, 180);
+  border-bottom: 1px solid rgb(183, 182, 182);
+}
+
+.trump {
+  height: 100px;
+  width: 100px;
+  border: 3px solid rgb(6, 121, 252);
+}
+
+.Amric {
+  height: 100px;
+  width: 100px;
+}
+
+.lk-nave {
   display: flex;
   flex-direction: row;
-  padding: 5px;
+  justify-content: space-between;
+  padding: 0.5rem auto;
+  margin: 0.5rem auto;
+}
+.Section-2 {
+  background-color: rgb(255, 240, 225);
+  flex-grow: 2;
+  margin: 10px;
+  padding: 20px;
 }
 
-.Section-3{
+.mile {
+  height: 250px;
+  width: 370px;
+}
+
+.flexz {
+  height: 100px;
+  width: 150px;
+}
+
+.rght-flex {
   display: flex;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-}
-
-.imgsec{
-  height: 70px;
-  width: 70px;
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-between;
 }
