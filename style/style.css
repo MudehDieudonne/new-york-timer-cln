@@ -156,3 +156,12 @@ figcaption {
   padding: 10px;
   justify-content: space-between;
 }
+.rgt-flex {
+  height: 170px;
+  width: 160px;
+}
+
+.rgt-flexz {
+  height: 110px;
+  width: 100px;
+}
